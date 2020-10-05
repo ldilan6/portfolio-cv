@@ -9,49 +9,34 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Dilan Loyola',
+  subtitle: 'A Software Engineer',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
+  // paragraphOne: 'Graduated from the Univeristy of Florida with a Bachelors degree in Computer Science.Interned at GE DIgital,
+  //  developed a tool that automated the dependency management for the Predix Data Services team. Worked as a Software Engineer
+  //  at Strategic Healthcare Management Systems. Consolidated the healthcare data in SQL Server Studio in order to improve the runtime
+  //  of the stored procedures.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1OB6OBVOrE98UkCwVrw4lEAfTf8Vgayql/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: '',
+    title: 'Penalty Kicks',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ldilan6/PenaltyKick', // if no repo, the button will not show up
   },
 ];
 
