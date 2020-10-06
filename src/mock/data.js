@@ -18,12 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  // paragraphOne: 'Graduated from the Univeristy of Florida with a Bachelors degree in Computer Science.Interned at GE DIgital,
-  //  developed a tool that automated the dependency management for the Predix Data Services team. Worked as a Software Engineer
-  //  at Strategic Healthcare Management Systems. Consolidated the healthcare data in SQL Server Studio in order to improve the runtime
-  //  of the stored procedures.',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I graduated from UF with a degree in CS. Interned with GE Digital and worked on a dependency management project that automated dependencies.',
+  paragraphTwo:
+    'Worked with Strategic Healthcare Management Systems and consolidated Healthcare data using sql server studio; doing so improved the runtime of the stored procedures..',
+  paragraphThree:
+    'I am a determined and energetic individual who is ready to provide quality software design knowlegde to an organization seeking a software engineer.',
   resume: 'https://drive.google.com/file/d/1OB6OBVOrE98UkCwVrw4lEAfTf8Vgayql/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -31,10 +31,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: '',
+    img: 'project.jpg',
     title: 'Penalty Kicks',
-    info: '',
-    info2: '',
+    info:
+      'I worked on developing a mobile Soccer game of Penalty Kicks as my final project in undergrad. The game contains AI components for the goalkeeper and the CPU (second player).',
+    info2:
+      'The trajectory of the ball when kicked by the CPU is determined by a random function which randomizes the components of the xyz axis.',
     url: '',
     repo: 'https://github.com/ldilan6/PenaltyKick', // if no repo, the button will not show up
   },
@@ -42,7 +44,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Contact me',
   btn: '',
   email: '',
 };
@@ -53,11 +55,6 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
       url: '',
     },
     {
