@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I graduated from UF with a degree in CS. Interned with GE Digital and worked on a dependency management project that automated dependencies.',
+    'I graduated from The University of Florida with a degree in Computer Science. Interned with GE Digital and worked on a dependency management project that automated dependencies.',
   paragraphTwo:
     'Worked with Strategic Healthcare Management Systems and consolidated Healthcare data using sql server studio; doing so improved the runtime of the stored procedures..',
   paragraphThree:
@@ -44,9 +44,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Contact me',
-  btn: '',
-  email: '',
+  cta: 'Want to hire me?',
+  btn: 'Contact Me',
+  email: 'Ldilan6@gmail.com',
 };
 
 // FOOTER DATA
@@ -55,22 +55,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/yepLDilan',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/dilan-loyola-516433128/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ldilan6',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
