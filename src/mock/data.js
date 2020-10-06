@@ -21,10 +21,10 @@ export const aboutData = {
   paragraphOne:
     'I graduated from The University of Florida with a degree in Computer Science. Interned with GE Digital and worked on a dependency management project that automated dependencies.',
   paragraphTwo:
-    'Worked with Strategic Healthcare Management Systems and consolidated Healthcare data using sql server studio; doing so improved the runtime of the stored procedures..',
+    'Worked with Strategic Healthcare Management Systems and consolidated Healthcare data using sql server studio, doing so improved the runtime of the stored procedures.',
   paragraphThree:
-    'I am a determined and energetic individual who is ready to provide quality software design knowlegde to an organization seeking a software engineer.',
-  resume: 'https://drive.google.com/file/d/1OB6OBVOrE98UkCwVrw4lEAfTf8Vgayql/view?usp=sharing', // if no resume, the button will not show up
+    'I am a determined and energetic individual who is ready to provide quality software design knowlegde to an organization seeking a Software Engineer.',
+  resume: 'https://drive.google.com/file/d/1mihnfOdkAFKUS__1JPGafYijuWrABJPo/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -36,8 +36,7 @@ export const projectsData = [
     info:
       'I worked on developing a mobile Soccer game of Penalty Kicks as my final project in undergrad. The game contains AI components for the goalkeeper and the CPU (second player).',
     info2:
-      'The trajectory of the ball when kicked by the CPU is determined by a random function which randomizes the components of the xyz axis.',
-    url: '',
+      'The trajectory of the ball when kicked by the CPU is determined by a random function which randomizes the components of the x, y and z axis.',
     repo: 'https://github.com/ldilan6/PenaltyKick', // if no repo, the button will not show up
   },
 ];
