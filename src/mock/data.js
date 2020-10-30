@@ -24,7 +24,7 @@ export const aboutData = {
     'Worked with Strategic Healthcare Management Systems and consolidated Healthcare data using sql server studio, doing so improved the runtime of the stored procedures.',
   paragraphThree:
     'I am a determined and energetic individual who is ready to provide quality software design knowledge to an organization seeking a Software Engineer.',
-  resume: 'https://drive.google.com/file/d/18qvQkehiLnENybkkYIQnXw-FKogZGdH7/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/18hM9NHr3Lt865vSPxZpvDlQD2eLGKraJ/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
